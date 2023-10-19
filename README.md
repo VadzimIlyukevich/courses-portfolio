@@ -1,2 +1,3 @@
 # courses-portfolio
-Project for portfolia for [@nastatsan](https://github.com/nastatsan)
+Project for portfolio
+for [@nastatsan](https://github.com/nastatsan)
