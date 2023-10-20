@@ -4,7 +4,7 @@ Project for portfolio for [@nastatsan](https://github.com/nastatsan).
 
 
 ## Back-end
-
+[@nastatsan](https://github.com/nastatsan)
 ##### List of features:
 - Having a private account;
 - Possibility to view video-lessons;
