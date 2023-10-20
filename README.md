@@ -2,6 +2,22 @@
 
 Project for portfolio for [@nastatsan](https://github.com/nastatsan).
 
+
+## Back-end
+
+##### List of features:
+- Having a private account;
+- Possibility to view video-lessons;
+- Selection and payment of the courses you like;
+- Access to shopping history and viewing history;
+- Chat with your teacher.
+
+### technologies
+
+<code><a href="https://www.djangoproject.com"><img alt="Cpp" title="Django" src="ReadMe_src/django.svg" height="42"></a></code>   
+<code><a href="https://www.sqlalchemy.org"><img alt="Cpp" title="SQLAlchemy" src="ReadMe_src/SQLAlchemy.svg" height="42"></a></code> 
+<code><a href="https://fastapi.tiangolo.com/"><img alt="Cpp" title="FastAPI" src="ReadMe_src/fastapi.svg" height="42"></a></code>
+
 ## Front-end
 
 [@VadzimIlyukevich](https://github.com/VadzimIlyukevich)
