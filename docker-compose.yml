@@ -1,0 +1,8 @@
+version: "3.8"
+services:
+  back:
+    build: ./back
+    command: python manage.py runserver localhost:5432
+    ports:
+    - "8000:5432"
+
