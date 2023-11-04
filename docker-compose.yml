@@ -8,9 +8,7 @@ services:
 
   front:
     build: ./front
-    command: npm run dev
     ports:
-      - "8001:5000"
-    network_mode: host
+      - "8001:8001"
     depends_on:
       - back
