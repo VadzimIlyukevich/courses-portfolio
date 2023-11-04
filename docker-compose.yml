@@ -5,3 +5,12 @@ services:
     command: python manage.py runserver 0.0.0.0:8000
     ports:
       - "8000:8000"
+
+  front:
+    build: ./front
+    command: npm run dev
+    ports:
+      - "8001:5000"
+    network_mode: host
+    depends_on:
+      - back
