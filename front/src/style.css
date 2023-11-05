@@ -5,7 +5,7 @@
 
   color-scheme: light dark;
   color: rgba(255, 255, 255, 0.87);
-  background-color: #242424;
+  background-color: #201c2b;
 
   font-synthesis: none;
   text-rendering: optimizeLegibility;
@@ -78,3 +78,8 @@ button:focus-visible {
     background-color: #f9f9f9;
   }
 }
+
+/*tailwind*/
+@tailwind base;
+@tailwind components;
+@tailwind utilities;

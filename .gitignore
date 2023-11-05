@@ -137,7 +137,11 @@ dmypy.json
 # temp files
 file.xlsm
 
+<<<<<<< HEAD
 
+=======
+.DS_Store
+>>>>>>> front
 node_modules
 /dist
 
