@@ -1,15 +1,10 @@
 <script setup lang="ts">
-
-import {ref} from 'vue'
-import type { Ref } from 'vue'
-
-const count: Ref<string | number> = ref(1)
+import NavBar from "./components/NavBar.vue";
 </script>
 
-<template>
-  <div>
-    {{ count }}
-  </div>
+<template >
+  <nav-bar></nav-bar>
+  <router-view></router-view>
 </template>
 
 <style scoped>
