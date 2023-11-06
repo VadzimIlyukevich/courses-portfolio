@@ -3,14 +3,9 @@ import vue from '@vitejs/plugin-vue'
 import eslint from 'vite-plugin-eslint';
 
 export default defineConfig({
-<<<<<<< HEAD
-  plugins: [vue()],
+  plugins: [vue(), eslint()],
   server: {
     port: 8001,
     host: true
-  }
+  },
 })
-=======
-  plugins: [vue(), eslint()],
-})
->>>>>>> front
