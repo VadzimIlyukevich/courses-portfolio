@@ -24,7 +24,7 @@ const toggleActive = ()=>{
        class='relative'
   >
     <button :id=id
-            class="text-gray-200 transition ease-in-out duration-200 hover:bg-violet-800 hover:border-1 hover:border-transparent hover:border focus:ring-4 focus:outline-none focus:ring-violet-300 font-medium rounded-lg text-base px-2 py-2 text-center inline-flex items-center dark:hover:bg-violet-700 dark:focus:ring-violet-800"
+            class="text-greyBase transition ease-in-out duration-200 hover:bg-violet-800 hover:border-1 hover:border-transparent hover:border focus:ring-4 focus:outline-none focus:ring-violet-300 font-medium rounded-lg text-base px-2 py-2 text-center inline-flex items-center dark:hover:bg-violet-700 dark:focus:ring-violet-800"
             type="button"
             @click="toggleActive"
             @blur="toggleActive"

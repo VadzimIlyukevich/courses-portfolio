@@ -11,9 +11,9 @@ const isHover = ref(false)
 </script>
 
 <template>
-  <header class="sticky w-full bg-neutral-900" >
-    <nav class="flex max-w-7xl justify-between px-6 py-3 lg:px-8" >
-      <div class="container mx-auto flex flex-row items-center" >
+  <header class="w-full bg-neutral-900" >
+    <nav class="flex w-full min-w-max justify-between px-6 py-3 lg:px-8" >
+      <div class="container min-w-max mx-auto flex flex-row items-center" >
         <h2 class="text-2xl font-bold p-2 cursor-pointer"
             @mouseover="isHover = true"
             @mouseleave="isHover = false"
@@ -29,8 +29,8 @@ const isHover = ref(false)
         title="categories"
         id="categories"
         :array-dropdown="[
-        {name:'frontend',url: '/front'},
-        {name:'backend',url: '/back'},
+        {name:'frontend', url: '/front'},
+        {name:'backend', url: '/back'},
           ]"
         />
         <base-button
@@ -41,15 +41,15 @@ const isHover = ref(false)
       <div class="container mx-auto flex flex-row-reverse items-center">
         <base-button
             text="sigh in"
-            @click="router.push('/login')"
+            @click="router.push('/signIn')"
         />
         <base-button
             text="sigh up"
-            @click="router.push('/register')"
-            reverse-style="true"
+            @click="router.push('/signUp')"
+            reverse-style= true
         />
-        <cart-image></cart-image>
-        <search-image></search-image>
+        <cart-image @click="router.push('/cart')" />
+        <search-image @click="router.push('/search')" />
       </div>
     </nav>
   </header>

@@ -83,3 +83,12 @@ button:focus-visible {
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@layer components{
+  .svg {
+    @apply mx-2 hover:border-transparent transition ease-linear duration-100 focus:outline-0 fill-gray-600 hover:fill-violet-800
+  }
+  .svg-grey{
+    @apply mx-2 hover:border-transparent transition duration-100 ease-linear focus:outline-0 fill-none stroke-2 stroke-gray-600 hover:stroke-gray-700;
+  }
+}

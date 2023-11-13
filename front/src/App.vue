@@ -7,5 +7,6 @@ import NavBar from "./components/NavBar.vue";
   <router-view></router-view>
 </template>
 
-<style scoped>
+<style lang="postcss">
+
 </style>

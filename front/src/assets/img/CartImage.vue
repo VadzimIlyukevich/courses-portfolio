@@ -3,7 +3,7 @@
 </script>
 
 <template>
-  <button class="mx-2 hover:border-transparent transition ease-linear focus:outline-0 fill-gray-600 hover:fill-violet-800">
+  <button class="svg">
     <svg  height="30px" width="30px" version="1.1" xmlns="http://www.w3.org/2000/svg"
          xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 490.00 490.00" xml:space="preserve">
     <path

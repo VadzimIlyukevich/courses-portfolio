@@ -3,7 +3,7 @@
 </script>
 
 <template>
-  <button class="mx-2 hover:border-transparent transition ease-linear focus:outline-0 fill-none stroke-2 stroke-gray-600 hover:stroke-gray-700">
+  <button class="svg-grey">
     <svg width="25" height="25" viewBox="0 0 23 23" fill="none" xmlns="http://www.w3.org/2000/svg">
       <path fill-rule="evenodd" clip-rule="evenodd"
             d="M10 19C14.9706 19 19 14.9706 19 10C19 5.02944 14.9706 1 10 1C5.02944 1 1 5.02944 1 10C1 14.9706 5.02944 19 10 19Z"
@@ -14,5 +14,4 @@
 </template>
 
 <style scoped>
-
 </style>

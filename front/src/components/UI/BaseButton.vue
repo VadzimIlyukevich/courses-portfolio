@@ -10,7 +10,7 @@ defineProps<{
 
 <template>
   <button
-          class="text-gray-200 font-bold transition ease-linear duration-100
+          class="text-greyBase font-bold transition ease-linear duration-100
           active:hover:bg-violet-900
           hover:border-1 hover:border-transparent hover:border
           dark:hover:bg-violet-700 focus:outline-0
